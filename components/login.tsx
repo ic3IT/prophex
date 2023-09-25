@@ -58,7 +58,7 @@ function Login() {
 
   return (
     
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className=" flex min-h-screen flex-col items-center justify-between p-24 background">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <div className='top-left'>
           <button className='line-through'>Connect with your Metamask</button>
@@ -81,7 +81,8 @@ function Login() {
           </a>
         </div>
       </div>
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-purple-700/90 before:dark:opacity-10 after:dark:from-purple-900 after:purple:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-gray-500 before:dark:to-purple-700 before:dark:opacity-70 after:dark:from-purple-900 after:purple:via-[#0141ff] after:dark:opacity-70 before:lg:h-[360px] z-[-1]">
+
       <h4 className='text-4xl  relative flex fadeIn right-7'>Prophex</h4>
         <Image
           className="relative animate-slow-ping ml-5"
