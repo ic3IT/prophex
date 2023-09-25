@@ -58,7 +58,7 @@ function Login() {
 
   return (
     
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 background">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <div className='top-left'>
           <button className='line-through'>Connect with your Metamask</button>
