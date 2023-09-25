@@ -27,13 +27,13 @@ export default function RootLayout({
 
     <meta property="og:title" content="Scrollium: Scroll zkEVM's Premier Ecosystem" />
     <meta property="og:description" content="Scrollium: Scroll zkEVM's Premier Ecosystem - Dive in and experience innovation at its finest." />
-    <meta property="og:image" content="https://i.imgur.com/grPbAkO.png" />
+    <meta property="og:image" content="https://i.imgur.com/ekXXn0B.png" />
     <meta property="og:url" content="https://scrollium.io" />
 
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="Scrollium: zkEVM's Premier Ecosystem"/>
     <meta name="twitter:description" content="Scrollium: zkEVM's Premier Ecosystem - Dive in and experience innovation at its finest."/>
-    <meta name="twitter:image" content="https://i.imgur.com/grPbAkO.png"/>
+    <meta name="twitter:image" content="https://i.imgur.com/ekXXn0B.png"/>
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
