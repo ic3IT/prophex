@@ -38,7 +38,7 @@ export default function RootLayout({
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <title>Scrollium: Prohpex</title>
+    <title>Venium: Prohpex</title>
   </head>
   <body className={inter.className}>{children}</body>
 </html>

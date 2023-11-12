@@ -11,7 +11,7 @@ function Loading() {
           src="./logo.png"
           alt=""
         />
-        <h1 className="text-lg text-white font-bold">Loading Scrollium: Prophex</h1>
+        <h1 className="text-lg text-white font-bold">Loading Venium: Prophex</h1>
         <div style={{ marginTop: '20px', marginLeft: '-20px' }}>
     <PropagateLoader color="white" size={30} />
 </div>
