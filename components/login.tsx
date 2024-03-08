@@ -11,7 +11,7 @@ import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
 
 
-const METAMASK_DEEPLINK = "https://metamask.app.link/dapp/scrollium.vercel.app/"; // Replace with your MetaMask deeplink
+const METAMASK_DEEPLINK = "https://metamask.app.link/dapp/venium.io/"; // Replace with your MetaMask deeplink
 
 function Login() {
   const [isMetaMaskInstalled, setIsMetaMaskInstalled] = useState(false);
@@ -66,13 +66,13 @@ function Login() {
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://scrolliums.vercel.app/"
+            href="https://venium.io"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="/sclogo.png"
-              alt="Scrollium Logo"
+              alt="Venium Logo"
               className=""
               width={100}
               height={24}
